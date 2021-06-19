@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: devops-toolkit
+  name: commerzbank
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
@@ -9,7 +9,7 @@ spec:
   project: production
   source:
     path: devops-toolkit/app
-    repoURL: https://github.com/vfarcic/combine-infra-services-apps
+    repoURL: https://github.com/tapasmishraarc/combine-infra-services-apps
     targetRevision: HEAD
   destination:
     namespace: production
