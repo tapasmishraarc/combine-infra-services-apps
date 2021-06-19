@@ -6,7 +6,7 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  project: default
+  project: production
   source:
     path: argo-cd/overlays/production
     repoURL: https://github.com/tapasmishraarc/combine-infra-services-apps
