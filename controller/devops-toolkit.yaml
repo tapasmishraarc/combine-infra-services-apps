@@ -6,7 +6,7 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  project: production
+  project: default
   source:
     path: devops-toolkit/app
     repoURL: https://github.com/tapasmishraarc/combine-infra-services-apps
