@@ -18,7 +18,6 @@ spec:
     locations:
     - us-east1-b
     - us-east1-c
-    - us-east1-d
     clusterRef:
       name: devops-toolkit
     initialNodeCount: 1
