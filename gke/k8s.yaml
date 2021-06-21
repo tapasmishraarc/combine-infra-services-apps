@@ -4,7 +4,7 @@ metadata:
   name: devops-toolkit
 spec:
   forProvider:
-    location: us-east1
+    location: us-west1
     initialClusterVersion: latest
 
 ---
@@ -16,9 +16,9 @@ metadata:
 spec:
   forProvider:
     locations:
-    - us-east1-b
-    - us-east1-c
-    - us-east1-d
+    - us-west1-b
+    - us-west1-c
+    - us-west1-d
     clusterRef:
       name: devops-toolkit
     initialNodeCount: 1
