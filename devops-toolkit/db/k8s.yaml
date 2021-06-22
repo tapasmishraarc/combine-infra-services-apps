@@ -1,7 +1,7 @@
 apiVersion: database.gcp.crossplane.io/v1beta1
 kind: CloudSQLInstance
 metadata:
-  name: devops-toolkit-db-3
+  name: devops-toolkit-db-4
   namespace: production
 spec:
   forProvider:
