@@ -17,8 +17,6 @@ spec:
   forProvider:
     locations:
     - us-west1-b
-    - us-west1-c
-    - us-west1-a
     clusterRef:
       name: devops-toolkit
     initialNodeCount: 1
